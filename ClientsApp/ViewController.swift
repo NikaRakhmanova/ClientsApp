@@ -9,11 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var userName: UITextField!
+    @IBOutlet var password: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func logining(_ sender: Any) {
+    }
+    
 }
 

@@ -35,6 +35,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Log in"/>
                                         <connections>
+                                            <action selector="logining:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SNU-aU-yHM"/>
                                             <segue destination="cKn-k5-KJa" kind="presentation" id="rPJ-Oy-1ph"/>
                                         </connections>
                                     </button>
@@ -64,6 +65,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="FNp-Jk-mzr"/>
+                    <connections>
+                        <outlet property="password" destination="DZ0-VN-o3l" id="Dbr-N0-PAx"/>
+                        <outlet property="userName" destination="3bH-eN-IyL" id="lWy-pt-z62"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
