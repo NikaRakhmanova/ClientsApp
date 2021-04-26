@@ -13,6 +13,8 @@
 		E11673502636F18500CC656C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E116734E2636F18500CC656C /* Main.storyboard */; };
 		E11673522636F18900CC656C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11673512636F18900CC656C /* Assets.xcassets */; };
 		E11673552636F18900CC656C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11673532636F18900CC656C /* LaunchScreen.storyboard */; };
+		E16DB5CD2637262D0037187E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DB5CC2637262D0037187E /* WelcomeViewController.swift */; };
+		E16DB5D0263726710037187E /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DB5CF263726710037187E /* AboutMeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E11673512636F18900CC656C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11673542636F18900CC656C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11673562636F18900CC656C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16DB5CC2637262D0037187E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E16DB5CF263726710037187E /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				E11673482636F18500CC656C /* AppDelegate.swift */,
 				E116734A2636F18500CC656C /* SceneDelegate.swift */,
+				E16DB5CF263726710037187E /* AboutMeViewController.swift */,
+				E16DB5CC2637262D0037187E /* WelcomeViewController.swift */,
 				E116734C2636F18500CC656C /* ViewController.swift */,
 				E116734E2636F18500CC656C /* Main.storyboard */,
 				E11673512636F18900CC656C /* Assets.xcassets */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E116734D2636F18500CC656C /* ViewController.swift in Sources */,
+				E16DB5D0263726710037187E /* AboutMeViewController.swift in Sources */,
+				E16DB5CD2637262D0037187E /* WelcomeViewController.swift in Sources */,
 				E11673492636F18500CC656C /* AppDelegate.swift in Sources */,
 				E116734B2636F18500CC656C /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA5GQ2BKV7;
 				INFOPLIST_FILE = ClientsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Nika-Rakhmanova.ClientsApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA5GQ2BKV7;
 				INFOPLIST_FILE = ClientsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Nika-Rakhmanova.ClientsApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
