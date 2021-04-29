@@ -35,6 +35,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Log in"/>
                                         <connections>
+                                            <action selector="logInPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="HHB-91-2GN"/>
                                             <action selector="logining:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SNU-aU-yHM"/>
                                             <segue destination="cKn-k5-KJa" kind="presentation" id="rPJ-Oy-1ph"/>
                                         </connections>
@@ -44,10 +45,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qk7-Do-Jub">
                                 <rect key="frame" x="26" y="420.5" width="133" height="30"/>
                                 <state key="normal" title="Forgot User Name?"/>
+                                <connections>
+                                    <action selector="showUserNameIfFogot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kBa-b2-rXX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dx6-E6-lrT">
                                 <rect key="frame" x="226" y="420.5" width="123" height="30"/>
                                 <state key="normal" title="Forgot Password?"/>
+                                <connections>
+                                    <action selector="showPasswordIfForgot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HDr-FU-sx9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -144,6 +151,9 @@
                                         <rect key="frame" x="0.0" y="308" width="343" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Log Out"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="cFK-5S-96x"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -158,6 +168,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="star.circle.fill" catalog="system" id="VWL-gI-gYZ"/>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="rSo-JR-xCz" id="WRS-ju-ICL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uba-16-BDu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

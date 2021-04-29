@@ -15,6 +15,7 @@
 		E11673552636F18900CC656C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11673532636F18900CC656C /* LaunchScreen.storyboard */; };
 		E16DB5CD2637262D0037187E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DB5CC2637262D0037187E /* WelcomeViewController.swift */; };
 		E16DB5D0263726710037187E /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DB5CF263726710037187E /* AboutMeViewController.swift */; };
+		E16DB5D52637E2400037187E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DB5D42637E2400037187E /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E11673562636F18900CC656C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E16DB5CC2637262D0037187E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E16DB5CF263726710037187E /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		E16DB5D42637E2400037187E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				E16DB5CF263726710037187E /* AboutMeViewController.swift */,
 				E16DB5CC2637262D0037187E /* WelcomeViewController.swift */,
 				E116734C2636F18500CC656C /* ViewController.swift */,
+				E16DB5D42637E2400037187E /* User.swift */,
 				E116734E2636F18500CC656C /* Main.storyboard */,
 				E11673512636F18900CC656C /* Assets.xcassets */,
 				E11673532636F18900CC656C /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			files = (
 				E116734D2636F18500CC656C /* ViewController.swift in Sources */,
 				E16DB5D0263726710037187E /* AboutMeViewController.swift in Sources */,
+				E16DB5D52637E2400037187E /* User.swift in Sources */,
 				E16DB5CD2637262D0037187E /* WelcomeViewController.swift in Sources */,
 				E11673492636F18500CC656C /* AppDelegate.swift in Sources */,
 				E116734B2636F18500CC656C /* SceneDelegate.swift in Sources */,
